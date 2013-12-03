@@ -31,13 +31,13 @@ drainer([
 
 ### Handling Errors
 
-Each function in the array recieves a callback, `next()`, to call when done. If only one argument is passed into that callback, it will assume that it is an error and exit the chain and call the final callback with the error.
+Each function in the array recieves a callback, `next()`, to call when done. If only one argument is passed into that callback, it will assume that it is an error, exit the chain, and call the final callback with the error.
 
 ### Passing Arguments
 
-If you call the `next()` callback in the queued function with the first argument as `null`, any argument following, will be passed to the next function in the queue.
+If you call the `next()` callback in the queued function with the first argument as `null`, any argument following will be passed to the next function in the queue.
 
-The final callback will recieve any values passed from the last method in the function queue.
+The final callback will recieve any values passed from the last function in the function queue.
 
 ## Run Tests
 
