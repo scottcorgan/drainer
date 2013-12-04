@@ -2,7 +2,7 @@ var drainer = require('../');
 var test = require('tape');
 var sinon = require('sinon');
 
-test('execuates all methods in queue', function (t) {
+test('executes all methods in queue', function (t) {
   var spy = sinon.spy();
   var queue = [
     function (next) {
