@@ -1,6 +1,6 @@
 {
   "name": "drainer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Queue and drain an array of functions in series",
   "main": "index.js",
   "scripts": {
